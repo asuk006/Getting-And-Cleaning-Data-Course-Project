@@ -5,7 +5,7 @@ Here I'll explain how the run_analysis.R file creates the required tidy activity
 ## CodeBook
 The description of the data, the experiment and variables is available in CodeBook.md
 
-##run_analysis.R
+## run_analysis.R
 
 This is a very detailed script that creates the required tidy dataset from the raw input.
 Here's, briefly, what the script does:
@@ -25,7 +25,7 @@ Only those mean and standard deviation estimates on signals that meet the descri
 
 and writes the tidy activity recognition data set to "activity_recognition.txt"
 
-##IMPORTANT: why the resulting data set is tidy?
+## IMPORTANT: why the resulting data set is tidy?
 
 I chose to present the data set in the narrow form, which as well as the wide form, is acceptable and satisfies the "tidyness". Here, the names of the mean and standard deviation variables for each signal are presented in the varibale column and the average value for each varibale, each subject and each activity is also a variable.
 
@@ -39,7 +39,7 @@ For a more detailed arguemnet about the tidyness of the narrow fromat see David 
 
 [Getting and Cleaning the Assignment](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/6)
 
-##activity_recognition.txt
+## activity_recognition.txt
 Please read the data set with:
 
 read.table(), header = TRUE
