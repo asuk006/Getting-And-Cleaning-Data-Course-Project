@@ -42,7 +42,7 @@ For a more detailed arguemnet about the tidyness of the narrow fromat see David 
 ## activity_recognition.txt
 Please read the data set with:
 
-read.table(), header = TRUE, row.names = FALSE
+read.table(), header = TRUE, row.name = FALSE
 
 
 ## Acknowledgments
