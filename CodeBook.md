@@ -12,17 +12,17 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-##Variables
+## Variables
 
-###id
+### id
 
 Identifiers of the subjects who carried out the experiment
 
-###activity_name
+### activity_name
 
 Names of the six activities, during which the sensor signals from accelerometer and gyroscope were recorded
 
-###variable
+### variable
 
 Refers to mean or standard deviation variables that were estimated from the following signals:
 
@@ -54,6 +54,6 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
 
-###average
+### average
 
 This is the, consequentially, the average of each mean value and standard deviation variable for each activity and each subject.
